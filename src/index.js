@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 
 import App from "./App";
 
+const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById("root")
+  <StrictMode basename={process.env.PUBLIC_URL}>
+    <App />
+  </StrictMode>,
+  rootElement
 );
