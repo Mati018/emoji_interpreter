@@ -2,6 +2,7 @@
   "homepage": "https://mati018.github.io/emoji_interpreter",
   "name": "mati018.github.io",
   "version": "1.0.0",
+  "private": false,
   "description": "",
   "keywords": [],
   "main": "src/index.js",
